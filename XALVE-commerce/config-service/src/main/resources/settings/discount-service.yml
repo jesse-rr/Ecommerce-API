@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: jrr
+      password: admin
+      uri: mongodb://localhost:27017/mongodb
+      database: discount
+
+server:
+  port: 8020

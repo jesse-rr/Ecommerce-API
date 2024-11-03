@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/order.css">
+    <title>Payment Notification</title>
+</head>
+<body>
+<div class="container">
+    <h1>Payment Notification</h1>
+    <p>Dear ${customer},</p>
+    <p>Thank you for your recent order! We are pleased to inform you that your payment has been processed.</p>
+
+    <h2>Order Details</h2>
+    <p><strong>Amount:</strong> $ ${amount}</p>
+    <p><strong>Currency:</strong> ${currency}</p>
+    <p><strong>Tracking Number:</strong> ${trackingNumber}</p>
+    <p><strong>Timestamp:</strong> ${timestamp}</p>
+
+    <h2>Additional Information</h2>
+    <p>Your order is on its way! You can track your shipment using the tracking number provided above. If you have any questions or need assistance, feel free to reach out to our customer service team.</p>
+</div>
+<div class="footer">
+    <p>Thank you for shopping with us! We appreciate your business.</p>
+</div>
+</body>
+</html>

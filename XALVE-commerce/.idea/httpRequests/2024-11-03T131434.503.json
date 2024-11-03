@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-11-03T16:14:34.280+00:00",
+  "path": "/api/v1/orders",
+  "status": 503,
+  "error": "Service Unavailable",
+  "requestId": "2358ec6b-11"
+}

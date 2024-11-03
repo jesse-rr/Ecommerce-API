@@ -1,0 +1,40 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: jrr
+      password: admin
+      uri: mongodb://localhost:27017/mongodb
+      database: notification
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      group-id: payment-group, order-group
+      properties:
+        spring.json.trusted.packages: '*'
+        spring.json.type.mapping: orderNotificationRequest:org.ecommerce.notification.notification.order.OrderNotificationRequest,paymentNotificationRequest:org.ecommerce.notification.notification.payment.PaymentNotificationRequest
+
+
+  mail:
+    host: smtp.gmail.com
+    username: {BUSSINESS_EMAIl}
+    password: {BUSSINESS_PASSWORD_GMAIL}
+    port: 587
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+server:
+  port: 8040

@@ -1,0 +1,12 @@
+spring:
+  data:
+    redis:
+      username: jrr
+      password: admin
+      port: 6379
+      host: localhost
+      url: redis://localhost:6379/0
+      database: 0
+
+server:
+  port: 8030

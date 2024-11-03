@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-11-03T16:40:15.213+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/v1/carts/add/671d2135df5d0f793502d7e4"
+}
