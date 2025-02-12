@@ -7,11 +7,10 @@ This was build to reinforce my knowledge in Backend Web Architecture, focusing i
 
 - Java
 - Spring Boot (Web, Lombok, Jpa, OpenFeign, Eureka, Config, Gateway, etc...)
-- Keyclock (Security/SSO)
 - Kafka & Zookeeper (Message Broker)
 - Postgresql | MongoDB | Redis
 - Docker (docker-compose.yml)
-- JS | Angular | CSS | HTML ***[FUTURE ADDITION]***
+- JS | CSS | HTML ***[FUTURE ADDITION]***
 
 ## Structure
 
@@ -24,7 +23,6 @@ The following is the structure of the services withing the project:
 ## Docker - SETUP
 ##### Use docker to start daemon & configure all necessaries technologies:
 - Kafka & Zookeeper
-- Keyclock
 - PostgreSQL | MongoDB | Redis
 - ***[FUTURE ADDITION]***
 
